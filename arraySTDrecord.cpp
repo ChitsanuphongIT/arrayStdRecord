@@ -3,14 +3,14 @@
 #include <iomanip>
 using namespace std;
 
-int main() {
-    
-    
+int numCount;
+
+int main() { 
 
     int numCount, select;
-    int quiz[100];
-    int mid[100];
-    int fnal[100];
+    int *quiz = new int[numCount];
+    int *mid = new int[numCount];
+    int *fnal = new int[numCount];
 
     cout << setw(30) << setfill('=') << "" << endl;
     cout << "" << setw(16) << setfill(' ') << "MENU" << setw(15) << setfill(' ') << "" << endl;
